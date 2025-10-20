@@ -1,4 +1,4 @@
-/* ----- ESTILOS GENERALES ----- */
+/* ESTILOS GENERALES */
 * {
   margin: 0;
   padding: 0;
@@ -10,7 +10,7 @@ body {
   color: #333;
 }
 
-/* ----- NAVBAR ----- */
+/*  BARRA DE NAVEGACIÓN  */
 .navbar {
   position: fixed;
   top: 0;
@@ -76,7 +76,7 @@ span:hover::before, span:hover::after {
 }
 
 
-/* ----- BOTÓN HAMBURGUESA ----- */
+/*  BOTÓN HAMBURGUESA  */
 .menu-icon {
   display: none;
   font-size: 1.8rem;
@@ -153,7 +153,7 @@ span:hover::before, span:hover::after {
   transition: all 0.3s ease;
 }
 
-/* 🔹 Borde decorativo superior con degradado */
+/* BORDE DECORATIVO Y EFECTO HOVER EN TARJETA*/
 .card::before {
   content: "";
   position: absolute;
@@ -164,13 +164,11 @@ span:hover::before, span:hover::after {
   background: linear-gradient(90deg, #00b4d8, #48cae4, #90e0ef);
 }
 
-/* 🔹 Efecto hover: eleva la tarjeta y resalta la sombra */
 .card:hover {
   transform: translateY(-5px);
   box-shadow: 0 6px 15px rgba(0,0,0,0.15);
 }
 
-/* 🔹 Títulos y texto dentro de las cards */
 .card h3 {
   color: #0077b6;
   margin-bottom: 10px;
@@ -182,7 +180,7 @@ span:hover::before, span:hover::after {
 }
 
 
-/* ----- CONTACTO ----- */
+/*  CONTACTO  */
 .contacto {
   align-content: center;
   padding: 20px 10px;
@@ -239,7 +237,7 @@ span:hover::before, span:hover::after {
   background-color: #0096c7;
 }
 
-/* ----- REDES SOCIALES ----- */
+/*  REDES SOCIALES  */
 .redes {
   padding: 80px 20px;
   text-align: center;
@@ -283,7 +281,7 @@ span:hover::before, span:hover::after {
   opacity: 0.9;
 }
 
-/* ----- FOOTER ----- */
+/*  FOOTER  */
 footer {
   background-color: #222;
   color: white;
@@ -291,23 +289,23 @@ footer {
   padding: 15px;
 }
 
-/* ----- RESPONSIVE DESIGN ----- */
+/* DISEÑO RESPONSIVE */
 
-/* 🟡 MAS DE 1550 */
+/*  MAS DE 1500 */
  @media (min-width: 1500px) {
   .inicio{
     background-size: 10%; 
   }
 } 
 
-/* 🟡 MAS DE 1100 */
+/* MAS DE 900 */
 @media (min-width: 900px) {
   .inicio{
     background-size: 55%; 
   }
 }
 
-/* 🟡 TABLET */
+/*  TABLET */
 @media (max-width: 768px) {
   .navbar {
     padding: 10px 15px;
