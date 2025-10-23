@@ -90,7 +90,7 @@ span:hover::before, span:hover::after {
 /* ----- SECCIÓN INICIO ----- */
 .inicio {
   height: 100vh;
-  background: url('https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3OTAyYmwwN3llZ2RjamR3anAzdmJrOTI4OHV1ZnR5a2JqNnkyaXRndCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Tgyqmbe5OX6QUI8QkC/giphy.gif') center center no-repeat;
+  background: url('../img/celular.webp') center center no-repeat;
   background-size: 65%;  
   background-repeat: no-repeat;
   background-position: center;
